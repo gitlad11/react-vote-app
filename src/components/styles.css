@@ -1,0 +1,90 @@
+.GraphicsBox{
+	margin: auto;
+	height: 300px;
+	width: 500px;
+	box-shadow: 0 4px 15px rgba(0,0,0,0.8);
+	border-radius: 10px;
+
+}
+.column-text{
+	background-color: lightgrey;
+}
+.Graphics{
+	position: relative;
+	background-size: 100%, 100%;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	overflow: hidden;
+	border-radius: inherit;
+	background-image: url('./schema.jpg');
+	padding: 10px;
+	border-bottom: 3px solid grey;
+	align-content: center;
+	align-items: center;
+}
+.column-container{
+	position: relative;
+	margin: auto;
+	height: 100%;
+	min-width: 20px;
+	padding: 2px;
+	border-bottom: 1px solid gray;
+	margin-left: 10%;
+}
+.column{
+	background-color: lime;
+	position: absolute;
+	bottom: 0px;
+	min-width: 20px;
+	transition: 0.6s ease;
+}
+.Graphics-numbers{
+	text-decoration: underline;
+	font-size: 12px;
+	height: 90%;
+	word-break: break-all;
+	max-width: 20px;
+	padding-left: 10px;
+}
+.VoteButtons{
+	background-color: white;
+	margin: auto;
+	margin-top: 100px !important;
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0 4px 15px rgba(0,0,0,0.8);
+}
+.Vote{
+	background-color: white;
+	align-content: center;
+	align-items: center;
+	justify-content: space-around;
+	display: flex;
+	width: 100%;
+	border-bottom: 1px solid gray;
+}
+.Vote: hover{
+	transform: scale(1.1);
+	transition: 0.9s ease;
+
+}
+.Vote-btn{
+	border: 1px solid gray;
+	border-radius: 50%;
+	height: 60px;
+	width: 60px;
+	border: none;
+	color: white;
+	background-color: #1E90FF;
+}
+
+.Vote-btn:hover{
+	cursor: pointer;
+	transition: 0.9s ease;
+	background-color: #7B68EE;
+}
+.active{
+	background-color: #FA8072!important;
+}
